@@ -1,0 +1,27 @@
+.TodoList {
+  width: 360px;
+  height: 300px;
+  padding: 10px;
+  margin: 0 -10px;
+  overflow: auto;
+  
+  &Item {
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 3px;
+    box-shadow: 0 1px 3px rgba(#000, 0.2);
+    margin-top: 10px;
+    padding: 20px;
+
+    &Title {
+      flex: 1;
+    }
+
+    &Delete {
+      font-size: 12px;
+      margin-left: 10px;
+      cursor: pointer;
+    }
+  }
+}
